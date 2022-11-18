@@ -18,3 +18,8 @@ function save() {
  count = 0;
  currentCount.textContent = count;
 }
+
+function clearCounter() {
+ count = 0;
+ currentCount.textContent = count;
+}
