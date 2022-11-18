@@ -12,3 +12,21 @@ body {
  text-align: center;
  margin-top: 35vh;
 }
+
+button {
+ border: none;
+ border-radius: 5px;
+ padding: 20px;
+}
+
+#increment {
+ background-color: #db0a13;
+}
+
+#save {
+ background-color: #630356;
+}
+
+#clear {
+ background-color: #fcde02;
+}
