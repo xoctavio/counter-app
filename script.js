@@ -5,3 +5,9 @@ let count = 0;
 
 console.log(currentCount);
 console.log(totalCount);
+
+// functions
+function increment() {
+ count += 1;
+ currentCount.textContent = count;
+}
