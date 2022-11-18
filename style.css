@@ -44,11 +44,18 @@ h1 {
 }
 
 button {
- color: var(--grey-300);
+ cursor: pointer;
+ color: var(--grey-50);
  border: none;
- border-radius: 5px;
- padding: 20px;
+ border-radius: 2px;
+ padding: 15px;
  width: 150px;
+ margin-bottom: 10px;
+}
+
+.top-buttons {
+ display: flex;
+ gap: 10px;
 }
 
 #increment {
@@ -61,4 +68,55 @@ button {
 
 #clear {
  background-color: goldenrod;
+}
+
+#increment:hover {
+ background-color: var(--grey-50);
+ color: crimson;
+ transition: all 0.3s ease-out;
+}
+
+#save:hover {
+ background-color: var(--grey-50);
+ color: darkslateblue;
+ transition: all 0.3s ease-out;
+}
+
+#clear:hover {
+ background-color: var(--grey-50);
+ color: goldenrod;
+ transition: all 0.3s ease-out;
+}
+
+/* text effect */
+h1 {
+ position: relative;
+ display: inline-block;
+ background: linear-gradient(to bottom, var(--grey-50) 70%, var(--grey-900) 60%, var(--grey-900) 100%);
+ background-clip: text;
+ color: transparent;
+ transition: background 0.2s ease-out;
+}
+
+span {
+ position: relative;
+}
+
+span:before {
+ content: "";
+ position: absolute;
+ left: 0;
+ right: 0;
+ height: 2px;
+ background: var(--grey-50);
+ bottom: 5px;
+ transition: all 0.2s ease-out;
+}
+
+h1:hover {
+ background-position: 0 10px;
+}
+
+span:hover:before {
+ transform: translateY(10px)
 }
