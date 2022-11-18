@@ -11,3 +11,10 @@ function increment() {
  count += 1;
  currentCount.textContent = count;
 }
+
+function save() {
+ let countString = ` ${count} - ` ;
+ totalCount.textContent += countString;
+ count = 0;
+ currentCount.textContent = count;
+}
