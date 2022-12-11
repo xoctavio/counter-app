@@ -88,8 +88,9 @@ button {
  transition: all 0.3s ease-out;
 }
 
-/* text effect */
-h1 {
+/* text effect removed due to compatibility issues */
+
+/* h1 {
  position: relative;
  display: inline-block;
  background: linear-gradient(to bottom, var(--grey-50) 70%, var(--grey-900) 60%, var(--grey-900) 100%);
@@ -119,4 +120,4 @@ h1:hover {
 
 span:hover:before {
  transform: translateY(10px)
-}
+} */
