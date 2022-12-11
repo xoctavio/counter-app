@@ -6,8 +6,10 @@ deployed site:
 
 https://xoctavio.github.io/counter-app/
 
-# credits
+<!-- # credits
 
-<!-- text hover animation -->
+text hover animation
 
 https://codepen.io/RickyMarou/pen/dyoMXYR
+
+-->
