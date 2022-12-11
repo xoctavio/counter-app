@@ -41,6 +41,19 @@ body {
 
 h1 {
  color: var(--headingColor);
+ transition: all 0.3s ease-out;
+}
+
+h1:hover {
+ color: var(--grey-100);
+}
+
+h2 {
+ margin-bottom: 10px;
+}
+
+a {
+ text-decoration: none;
 }
 
 button {
